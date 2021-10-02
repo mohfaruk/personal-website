@@ -43,7 +43,6 @@ h3 {
 .bottom-container{
     background-color: #66BFBF;
     padding: 20px;
-    margin: 50px auto
 }
 
 hr { 
@@ -54,13 +53,13 @@ hr {
 }
 
 a {
-    color: #5D8233;
+    color: #fff;
     margin: 10px;
     text-decoration: none;
 }
 
 a:hover {
-    color: #E8F6EF;
+    color: #000;
 }
 
 .contact-message {
@@ -71,7 +70,7 @@ a:hover {
 
 .copyright {
     color: #E8F6EF;
-    font-size: 0.85rem;   
+    font-size: 1.2rem;   
     margin: 30px auto 5px auto  
 }
 
@@ -82,9 +81,15 @@ a:hover {
     line-height: 2;
 }
 
-.skill-icon {
+.skill-icon-left {
     width: 25%;
     float: left;
+    margin: 20px
+}
+
+.skill-icon-right {
+    width: 25%;
+    float: right;
     margin: 20px
 }
 
